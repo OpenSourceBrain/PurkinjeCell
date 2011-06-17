@@ -76,6 +76,7 @@ def testAll(argv=None):
                                varTimestepTolerance = varTimestepTolerance)
 
     simManager.reloadSims(plotVoltageOnly =   plotVoltageOnly,
+                          plotSims =          plotSims,
                           analyseSims =       analyseSims)
 
     # These were discovered using analyseSims = True above.
