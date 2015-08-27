@@ -41,6 +41,7 @@ simConfigs.append("BothSimulators")
 simDt =                 0.002
 
 simulators =            ["NEURON", "GENESIS_PHYS", "MOOSE_PHYS"]
+simulators =            ["NEURON", "GENESIS_PHYS"]
 
 numConcurrentSims =     4
 
