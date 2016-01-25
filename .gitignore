@@ -11,3 +11,12 @@ generatedPSICS
 simulations
 *.bak
 *py.class
+
+/neuroConstruct/generatedNeuroML2/*.hoc
+/neuroConstruct/generatedNeuroML2/*.mod
+
+/neuroConstruct/generatedNeuroML2/*.dat
+/neuroConstruct/generatedNeuroML2/*.png
+/neuroConstruct/generatedNeuroML2/*nrn.py
+
+*~

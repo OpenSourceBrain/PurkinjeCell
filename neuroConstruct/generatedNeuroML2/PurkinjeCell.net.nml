@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.githubusercontent.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta4.xsd" id="network_PurkinjeCell">
+
+    <notes>
+
+Network structure (NeuroML 2beta4) for project: PurkinjeCell saved with neuroConstruct v1.7.1 on: 10:39:15, 25-Jan-16
+
+Cell Group: BigCellCML contains 1 cells
+
+
+
+    </notes>
+
+
+    <include href="Leak.channel.nml"/>
+    <include href="purk2.cell.nml"/>
+
+    <pulseGenerator id="Input_3" delay="0.02s" duration="0.1s" amplitude="1.0E-9A"/>
+    
+    <network id="network_PurkinjeCell" type="networkWithTemperature" temperature="37.0 degC">
+
+        
+
+        <population id="BigCellCML" component="purk2" type="populationList" size="1">
+           <annotation>
+                <property tag="color" value="0.4296875 0.4765625 0.88671875"/>
+            </annotation>
+            <instance id="0">
+                <location x="0.0" y="0.0" z="0.0"/>
+            </instance>
+        </population>
+
+
+
+            <!--There are no synaptic connections present in the network-->
+
+
+        <inputList id="Input_3" component="Input_3" population="BigCellCML">
+            <input id="0" target="../BigCellCML/0/purk2" destination="synapses"/>
+        </inputList>
+
+
+
+
+
+    </network>
+
+</neuroml>
