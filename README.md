@@ -4,3 +4,4 @@ See http://www.opensourcebrain.org/projects/purkinjecell for more details.
 
 ![Purkinje Cell](https://raw.github.com/OpenSourceBrain/PurkinjeCell/master/neuroConstruct/images/large.png)
 
+[![Build Status](https://travis-ci.com/OpenSourceBrain/PurkinjeCell.svg?branch=master)](https://travis-ci.com/OpenSourceBrain/PurkinjeCell)
