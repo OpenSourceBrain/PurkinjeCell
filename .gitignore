@@ -20,3 +20,5 @@ simulations
 /neuroConstruct/generatedNeuroML2/*nrn.py
 
 *~
+arm64
+/neuroConstruct/generatedNeuroML2/simulator.props
