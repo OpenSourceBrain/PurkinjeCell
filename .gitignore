@@ -22,3 +22,4 @@ simulations
 *~
 arm64
 /neuroConstruct/generatedNeuroML2/simulator.props
+/neuroConstruct/generatedNeuroML2/LEMS_PurkinjeCell_netpyne.py
